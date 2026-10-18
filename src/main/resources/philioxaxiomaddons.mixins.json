@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.philiox.axiomaddons.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "AutoshadeWindowMixin",
+    "BlockColourMapMixin",
+    "BuiltinStylesMixin",
+    "ChunkRenderOverriderAccessor",
+    "EditorUIAccessor",
+    "ShapeToolMixin",
+    "StyleManagerMixin",
+    "ToolManagerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

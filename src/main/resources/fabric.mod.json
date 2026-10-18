@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "philioxaxiomaddons",
+  "version": "${version}",
+  "name": "Philiox Axiom Addons",
+  "description": "Adds Star and Egg shapes to Axiom's Shape Tool.",
+  "authors": [
+    "Philiox"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "mixins": [
+    "philioxaxiomaddons.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "axiom": "~6.1.3"
+  }
+}

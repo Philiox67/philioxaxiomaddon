@@ -1,0 +1,8 @@
+.gradle/
+build/
+out/
+run/
+.idea/
+*.iml
+# Axiom is "All Rights Reserved", never commit it
+libs/*.jar
